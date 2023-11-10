@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45778262AFD58F8004605EB /* ExpediaIOSTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45778252AFD58F8004605EB /* ExpediaIOSTestApp.swift */; };
+		D45778282AFD58F8004605EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45778272AFD58F8004605EB /* ContentView.swift */; };
+		D457782A2AFD58FA004605EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45778292AFD58FA004605EB /* Assets.xcassets */; };
+		D457782D2AFD58FA004605EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D457782C2AFD58FA004605EB /* Preview Assets.xcassets */; };
+		D45778352AFD5937004605EB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45778342AFD5937004605EB /* NetworkManager.swift */; };
+		D45778372AFD59B1004605EB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45778362AFD59B1004605EB /* Endpoint.swift */; };
+		D45778392AFD5B7A004605EB /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45778382AFD5B7A004605EB /* ResponseHandler.swift */; };
+		D457783C2AFD5E5F004605EB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457783B2AFD5E5F004605EB /* City.swift */; };
+		D457783F2AFD63C2004605EB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457783E2AFD63C2004605EB /* Services.swift */; };
+		D47972BD2AFD6F6600DA824A /* CityWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47972BC2AFD6F6600DA824A /* CityWeatherView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D45778222AFD58F8004605EB /* ExpediaIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpediaIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45778252AFD58F8004605EB /* ExpediaIOSTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpediaIOSTestApp.swift; sourceTree = "<group>"; };
+		D45778272AFD58F8004605EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D45778292AFD58FA004605EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D457782C2AFD58FA004605EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D45778342AFD5937004605EB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D45778362AFD59B1004605EB /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D45778382AFD5B7A004605EB /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		D457783B2AFD5E5F004605EB /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		D457783E2AFD63C2004605EB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D47972BC2AFD6F6600DA824A /* CityWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherView.swift; sourceTree = "<group>"; };
+		D47972C22AFDC7B400DA824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D457781F2AFD58F8004605EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45778192AFD58F8004605EB = {
+			isa = PBXGroup;
+			children = (
+				D45778242AFD58F8004605EB /* ExpediaIOSTest */,
+				D45778232AFD58F8004605EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45778232AFD58F8004605EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45778222AFD58F8004605EB /* ExpediaIOSTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45778242AFD58F8004605EB /* ExpediaIOSTest */ = {
+			isa = PBXGroup;
+			children = (
+				D47972C22AFDC7B400DA824A /* Info.plist */,
+				D47972BB2AFD6F5400DA824A /* View */,
+				D457783A2AFD5E3E004605EB /* Models */,
+				D45778332AFD5925004605EB /* Utility */,
+				D45778252AFD58F8004605EB /* ExpediaIOSTestApp.swift */,
+				D45778272AFD58F8004605EB /* ContentView.swift */,
+				D45778292AFD58FA004605EB /* Assets.xcassets */,
+				D457782B2AFD58FA004605EB /* Preview Content */,
+			);
+			path = ExpediaIOSTest;
+			sourceTree = "<group>";
+		};
+		D457782B2AFD58FA004605EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D457782C2AFD58FA004605EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D45778332AFD5925004605EB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D45778342AFD5937004605EB /* NetworkManager.swift */,
+				D45778362AFD59B1004605EB /* Endpoint.swift */,
+				D45778382AFD5B7A004605EB /* ResponseHandler.swift */,
+				D457783E2AFD63C2004605EB /* Services.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D457783A2AFD5E3E004605EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D457783B2AFD5E5F004605EB /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D47972BB2AFD6F5400DA824A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D47972BC2AFD6F6600DA824A /* CityWeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45778212AFD58F8004605EB /* ExpediaIOSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45778302AFD58FA004605EB /* Build configuration list for PBXNativeTarget "ExpediaIOSTest" */;
+			buildPhases = (
+				D457781E2AFD58F8004605EB /* Sources */,
+				D457781F2AFD58F8004605EB /* Frameworks */,
+				D45778202AFD58F8004605EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpediaIOSTest;
+			productName = ExpediaIOSTest;
+			productReference = D45778222AFD58F8004605EB /* ExpediaIOSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D457781A2AFD58F8004605EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D45778212AFD58F8004605EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D457781D2AFD58F8004605EB /* Build configuration list for PBXProject "ExpediaIOSTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45778192AFD58F8004605EB;
+			productRefGroup = D45778232AFD58F8004605EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45778212AFD58F8004605EB /* ExpediaIOSTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45778202AFD58F8004605EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D457782D2AFD58FA004605EB /* Preview Assets.xcassets in Resources */,
+				D457782A2AFD58FA004605EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D457781E2AFD58F8004605EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45778352AFD5937004605EB /* NetworkManager.swift in Sources */,
+				D45778282AFD58F8004605EB /* ContentView.swift in Sources */,
+				D457783C2AFD5E5F004605EB /* City.swift in Sources */,
+				D457783F2AFD63C2004605EB /* Services.swift in Sources */,
+				D47972BD2AFD6F6600DA824A /* CityWeatherView.swift in Sources */,
+				D45778372AFD59B1004605EB /* Endpoint.swift in Sources */,
+				D45778392AFD5B7A004605EB /* ResponseHandler.swift in Sources */,
+				D45778262AFD58F8004605EB /* ExpediaIOSTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D457782E2AFD58FA004605EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D457782F2AFD58FA004605EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45778312AFD58FA004605EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpediaIOSTest/Preview Content\"";
+				DEVELOPMENT_TEAM = RG984Y4MMV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpediaIOSTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.dmtz.ExpediaIOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45778322AFD58FA004605EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpediaIOSTest/Preview Content\"";
+				DEVELOPMENT_TEAM = RG984Y4MMV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpediaIOSTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.dmtz.ExpediaIOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D457781D2AFD58F8004605EB /* Build configuration list for PBXProject "ExpediaIOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D457782E2AFD58FA004605EB /* Debug */,
+				D457782F2AFD58FA004605EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45778302AFD58FA004605EB /* Build configuration list for PBXNativeTarget "ExpediaIOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45778312AFD58FA004605EB /* Debug */,
+				D45778322AFD58FA004605EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D457781A2AFD58F8004605EB /* Project object */;
+}
